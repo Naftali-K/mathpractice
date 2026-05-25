@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Fun Math</string>
+    <string name="score_template">Correct: %1$d | Errors: %2$d</string>
+    <string name="score_0_template_0">Correct: 0 | Errors: 0</string>
+    <string name="settings_title">Difficulty Settings</string>
+    <string name="start_button">Start</string>
+    <string name="check_button">Check</string>
+    <string name="history_title">History:</string>
+    <string name="answer_hint">Answer</string>
+    <string name="settings_button_text">Settings</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="problem_placeholder">\? + ? = ?</string>
+    <string name="version_template">Version %1$s</string>
+    <string name="your_answer_">Your answer:</string>
+    <string name="correct_">Correct:</string>
+
+    <!-- Dialog strings -->
+    <string name="choose_operations">Choose operations:</string>
+    <string name="op_plus">Addition (+)</string>
+    <string name="op_minus">Subtraction (-)</string>
+    <string name="op_multiply">Multiplication (*)</string>
+    <string name="op_divide">Division (/)</string>
+    <string name="op_mod">Modulo (%)</string>
+    <string name="digit_capacity">Digit capacity:</string>
+    <string name="digits_1">1-digit</string>
+    <string name="digits_2">2-digit</string>
+    <string name="digits_3">3-digit</string>
+    <string name="error_select_operation">Choose at least one operation</string>
+</resources>

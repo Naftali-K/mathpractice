@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">たのしい算数</string>
+    <string name="score_template">正解: %1$d | 間違い: %2$d</string>
+    <string name="score_0_template_0">正解: 0 | 間違い: 0</string>
+    <string name="settings_title">難易度設定</string>
+    <string name="start_button">スタート</string>
+    <string name="check_button">確認</string>
+    <string name="history_title">履歴:</string>
+    <string name="answer_hint">答え</string>
+    <string name="settings_button_text">設定</string>
+    <string name="reset_button_text">リセット</string>
+    <string name="problem_placeholder">\? + ? = ?</string>
+    <string name="version_template">バージョン %1$s</string>
+    <string name="your_answer_">あなたの答え:</string>
+    <string name="correct_">正解:</string>
+
+    <!-- ダイアログの文字列 -->
+    <string name="choose_operations">演算を選択してください:</string>
+    <string name="op_plus">足し算 (+)</string>
+    <string name="op_minus">引き算 (-)</string>
+    <string name="op_multiply">掛け算 (*)</string>
+    <string name="op_divide">割り算 (/)</string>
+    <string name="op_mod">剰余 (%)</string>
+    <string name="digit_capacity">桁数:</string>
+    <string name="digits_1">1桁</string>
+    <string name="digits_2">2桁</string>
+    <string name="digits_3">3桁</string>
+    <string name="error_select_operation">少なくとも1つの演算を選択してください</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">חשבון מהנה</string>
+    <string name="score_template">נכון: %1$d | שגיאות: %2$d</string>
+    <string name="score_0_template_0">נכון: 0 | שגיאות: 0</string>
+    <string name="settings_title">הגדרות קושי</string>
+    <string name="start_button">התחלה</string>
+    <string name="check_button">בדיקה</string>
+    <string name="history_title">היסטוריה:</string>
+    <string name="answer_hint">תשובה</string>
+    <string name="settings_button_text">הגדרות</string>
+    <string name="reset_button_text">איפוס</string>
+    <string name="problem_placeholder">\? + ? = ?</string>
+    <string name="version_template">גרסה %1$s</string>
+    <string name="your_answer_">התשובה שלך:</string>
+    <string name="correct_">נכון:</string>
+
+    <!-- מחרוזות דיאלוג -->
+    <string name="choose_operations">בחר פעולות:</string>
+    <string name="op_plus">חיבור (+)</string>
+    <string name="op_minus">חיסור (-)</string>
+    <string name="op_multiply">כפל (*)</string>
+    <string name="op_divide">חילוק (/)</string>
+    <string name="op_mod">שארית (%)</string>
+    <string name="digit_capacity">מספר ספרות:</string>
+    <string name="digits_1">ספרה אחת</string>
+    <string name="digits_2">2 ספרות</string>
+    <string name="digits_3">3 ספרות</string>
+    <string name="error_select_operation">יש לבחור לפחות פעולה אחת</string>
+</resources>

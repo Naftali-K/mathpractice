@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Веселая Математика</string>
+    <string name="score_template">Верно: %1$d | Ошибок: %2$d</string>
+    <string name="score_0_template_0">Верно: 0 | Ошибок: 0</string>
+    <string name="settings_title">Настройки сложности</string>
+    <string name="start_button">Старт</string>
+    <string name="check_button">Проверить</string>
+    <string name="history_title">История:</string>
+    <string name="answer_hint">Ответ</string>
+    <string name="settings_button_text">Настройки</string>
+    <string name="reset_button_text">Сброс</string>
+    <string name="problem_placeholder">\? + ? = ?</string>
+    <string name="version_template">Версия %1$s</string>
+    <string name="your_answer_">Ваш ответ:</string>
+    <string name="correct_">Правильно:</string>
+
+    <!-- Строки для диалога -->
+    <string name="choose_operations">Выберите операции:</string>
+    <string name="op_plus">Сложение (+)</string>
+    <string name="op_minus">Вычитание (-)</string>
+    <string name="op_multiply">Умножение (*)</string>
+    <string name="op_divide">Деление (/)</string>
+    <string name="op_mod">Остаток (%)</string>
+    <string name="digit_capacity">Разрядность чисел:</string>
+    <string name="digits_1">1-значные</string>
+    <string name="digits_2">2-значные</string>
+    <string name="digits_3">3-значные</string>
+    <string name="error_select_operation">Выберите хотя бы одну операцию</string>
+</resources>
