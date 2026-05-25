@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_operations"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Операции в два столбца для экономии места -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins">
+
+            <CheckBox
+                android:id="@+id/cbPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/op_plus"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/cbMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/op_minus" />
+
+            <CheckBox
+                android:id="@+id/cbMultiply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/op_multiply" />
+
+            <CheckBox
+                android:id="@+id/cbDivide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/op_divide" />
+
+            <CheckBox
+                android:id="@+id/cbMod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/op_mod" />
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/digit_capacity"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgDigits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb1Digit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digits_1"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rb2Digits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digits_2" />
+
+            <RadioButton
+                android:id="@+id/rb3Digits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digits_3" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
