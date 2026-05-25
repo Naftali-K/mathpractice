@@ -25,5 +25,6 @@
     <string name="digits_1">1桁</string>
     <string name="digits_2">2桁</string>
     <string name="digits_3">3桁</string>
+    <string name="allow_negative_results">負の結果を許可する</string>
     <string name="error_select_operation">少なくとも1つの演算を選択してください</string>
 </resources>

@@ -25,5 +25,6 @@
     <string name="digits_1">1-значные</string>
     <string name="digits_2">2-значные</string>
     <string name="digits_3">3-значные</string>
+    <string name="allow_negative_results">Разрешить отрицательные результаты</string>
     <string name="error_select_operation">Выберите хотя бы одну операцию</string>
 </resources>

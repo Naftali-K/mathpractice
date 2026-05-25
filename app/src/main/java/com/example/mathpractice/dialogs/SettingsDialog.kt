@@ -11,7 +11,7 @@ import com.example.mathpractice.databinding.DialogSettingsBinding
 class SettingsDialog : DialogFragment() {
 
     interface CallbackListener {
-        fun onSettingsConfirmed(operations: List<String>, digits: Int)
+        fun onSettingsConfirmed(operations: List<String>, digits: Int, allowNegative: Boolean)
     }
 
     private var callback: CallbackListener? = null
@@ -48,7 +48,8 @@ class SettingsDialog : DialogFragment() {
                         R.id.rb3Digits -> 3
                         else -> 1
                     }
-                    callback?.onSettingsConfirmed(operations, digits)
+                    val allowNegative = binding.cbAllowNegative.isChecked
+                    callback?.onSettingsConfirmed(operations, digits, allowNegative)
                     dismiss()
                 }
             }

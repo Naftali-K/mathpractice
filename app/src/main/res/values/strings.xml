@@ -25,5 +25,6 @@
     <string name="digits_1">1-digit</string>
     <string name="digits_2">2-digit</string>
     <string name="digits_3">3-digit</string>
+    <string name="allow_negative_results">Allow negative results</string>
     <string name="error_select_operation">Choose at least one operation</string>
 </resources>

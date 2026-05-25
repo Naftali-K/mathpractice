@@ -23,10 +23,12 @@ class MainActivityViewModel : ViewModel() {
 
     private var selectedOperations = listOf<String>()
     private var digitCount = 1
+    private var allowNegative = false
 
-    fun setSettings(operations: List<String>, digits: Int) {
-        selectedOperations = operations
-        digitCount = digits
+    fun setSettings(operations: List<String>, digits: Int, allowNegative: Boolean) {
+        this.selectedOperations = operations
+        this.digitCount = digits
+        this.allowNegative = allowNegative
         generateNewProblem()
     }
 
@@ -36,6 +38,7 @@ class MainActivityViewModel : ViewModel() {
         _showFeedback.value = null
         selectedOperations = emptyList()
         digitCount = 1
+        allowNegative = false
         _currentProblem.value = null
     }
 
@@ -51,6 +54,15 @@ class MainActivityViewModel : ViewModel() {
 
         var op1 = range.random()
         var op2 = range.random()
+
+        // Apply logic for non-negative results if requested (mainly for subtraction)
+        if (!allowNegative && operation == "-") {
+            if (op1 < op2) {
+                val temp = op1
+                op1 = op2
+                op2 = temp
+            }
+        }
 
         if (operation == "/" || operation == "%") {
             if (op2 == 0) op2 = 1

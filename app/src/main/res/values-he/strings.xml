@@ -25,5 +25,6 @@
     <string name="digits_1">ספרה אחת</string>
     <string name="digits_2">2 ספרות</string>
     <string name="digits_3">3 ספרות</string>
+    <string name="allow_negative_results">אפשר תוצאות שליליות</string>
     <string name="error_select_operation">יש לבחור לפחות פעולה אחת</string>
 </resources>

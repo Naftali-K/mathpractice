@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity(), SettingsDialog.CallbackListener {
         dialog.show(supportFragmentManager, SettingsDialog.TAG)
     }
 
-    override fun onSettingsConfirmed(operations: List<String>, digits: Int) {
-        viewModel.setSettings(operations, digits)
+    override fun onSettingsConfirmed(operations: List<String>, digits: Int, allowNegative: Boolean) {
+        viewModel.setSettings(operations, digits, allowNegative)
     }
 }
