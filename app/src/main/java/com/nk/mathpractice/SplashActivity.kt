@@ -1,11 +1,11 @@
-package com.example.mathpractice
+package com.nk.mathpractice
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mathpractice.databinding.ActivitySplashBinding
+import com.nk.mathpractice.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
 

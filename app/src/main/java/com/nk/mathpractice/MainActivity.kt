@@ -1,14 +1,14 @@
-package com.example.mathpractice
+package com.nk.mathpractice
 
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AlphaAnimation
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mathpractice.adapters.HistoryAdapter
-import com.example.mathpractice.databinding.ActivityMainBinding
-import com.example.mathpractice.dialogs.SettingsDialog
-import com.example.mathpractice.viewModels.MainActivityViewModel
+import com.nk.mathpractice.adapters.HistoryAdapter
+import com.nk.mathpractice.databinding.ActivityMainBinding
+import com.nk.mathpractice.dialogs.SettingsDialog
+import com.nk.mathpractice.viewModels.MainActivityViewModel
 
 class MainActivity : AppCompatActivity(), SettingsDialog.CallbackListener {
 

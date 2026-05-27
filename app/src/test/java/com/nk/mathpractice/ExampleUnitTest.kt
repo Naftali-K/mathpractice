@@ -1,4 +1,4 @@
-package com.example.mathpractice
+package com.nk.mathpractice
 
 import org.junit.Test
 

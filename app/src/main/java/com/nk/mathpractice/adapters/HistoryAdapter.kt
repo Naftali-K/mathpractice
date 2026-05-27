@@ -1,4 +1,4 @@
-package com.example.mathpractice.adapters
+package com.nk.mathpractice.adapters
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mathpractice.R
-import com.example.mathpractice.databinding.ItemHistoryBinding
-import com.example.mathpractice.models.HistoryItem
+import com.nk.mathpractice.R
+import com.nk.mathpractice.databinding.ItemHistoryBinding
+import com.nk.mathpractice.models.HistoryItem
 
 class HistoryAdapter : ListAdapter<HistoryItem, HistoryAdapter.ViewHolder>(DiffCallback()) {
 

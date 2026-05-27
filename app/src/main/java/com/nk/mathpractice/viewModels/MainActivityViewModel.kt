@@ -1,10 +1,10 @@
-package com.example.mathpractice.viewModels
+package com.nk.mathpractice.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.mathpractice.models.HistoryItem
-import com.example.mathpractice.models.Problem
+import com.nk.mathpractice.models.HistoryItem
+import com.nk.mathpractice.models.Problem
 
 class MainActivityViewModel : ViewModel() {
 

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mathpractice"
+    namespace = "com.nk.mathpractice"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mathpractice"
+        applicationId = "com.nk.mathpractice"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

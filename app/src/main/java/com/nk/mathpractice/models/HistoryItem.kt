@@ -1,4 +1,4 @@
-package com.example.mathpractice.models
+package com.nk.mathpractice.models
 
 data class HistoryItem(
     val expression: String,

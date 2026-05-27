@@ -1,12 +1,12 @@
-package com.example.mathpractice.dialogs
+package com.nk.mathpractice.dialogs
 
 import android.app.Dialog
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
-import com.example.mathpractice.R
-import com.example.mathpractice.databinding.DialogSettingsBinding
+import com.nk.mathpractice.R
+import com.nk.mathpractice.databinding.DialogSettingsBinding
 
 class SettingsDialog : DialogFragment() {
 
